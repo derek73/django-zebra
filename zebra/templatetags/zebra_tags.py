@@ -15,7 +15,7 @@ def _set_up_zebra_form(context):
         if "form" in context:
             context["zebra_form"] = context["form"]
         else:
-            raise Exception, "Missing stripe form."
+            raise Exception("Missing stripe form.")
     context["STRIPE_PUBLISHABLE"] = options.STRIPE_PUBLISHABLE
     return context
 
