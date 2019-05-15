@@ -5,7 +5,7 @@ from zebra.signals import *
 from django.utils import simplejson
 
 
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 
 class TestWebhooks(unittest.TestCase):
 
